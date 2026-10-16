@@ -1,0 +1,79 @@
+                                  Assignment One
+
+Requirements： (1) "To deal with plagiarism, a zero mark will be given if your copy
+someone else's work or you let someone copy your work."
+
+(2) "Every assignment/project submission must be attached with a signed 'Declaration of
+Use of Generative AI'
+
+  Literature Searching Assignment: Developing a Multi-Database Search Strategy
+                                    Based on PICOS
+
+1. Assignment Title
+
+The Effectiveness of Artificial Intelligence–Powered Conversational Agents in Supporting
+Self-Management and Improving Glycemic Control Among Adults With Type 2 Diabetes:
+A Multi-Database Search for Randomized Controlled Trials
+
+2. Background
+
+Type 2 diabetes is a chronic condition that requires continuous self-management,
+including blood glucose monitoring, medication use, dietary management, physical
+activity, problem-solving, and communication with healthcare professionals. Nurses play
+an important role in diabetes education, behavioral support, follow-up, and care
+coordination.
+
+Artificial intelligence–powered conversational agents—including chatbots, virtual health
+assistants, embodied conversational agents, and voice assistants—can provide
+automated education, personalized feedback, reminders, behavioral support, and
+medication-management assistance. These technologies may supplement nurse-led
+diabetes management by delivering continuous support outside clinical settings.
+
+Randomized studies have evaluated conversational agents for diabetes self-management
+and voice-based AI systems for insulin management. However, the interventions,
+outcomes, and terminology used in this field vary considerably, making a structured and
+reproducible literature-search strategy necessary.
+
+3. Aim of the Assignment
+
+The purpose of this assignment is to develop, conduct, document, and critically evaluate
+a reproducible multi-database literature search concerning AI-powered conversational
+interventions for adults with type 2 diabetes.
+
+Students are expected to:
+
+   1. Translate a clinical nursing question into a PICOS framework. [5 marks]
+2. Identify appropriate controlled vocabulary and free-text terms, and adapt the
+    search strategy to different database interfaces. [2 marks]
+
+3. Conduct both sensitive and specific searches, document the complete search
+    process using screenshots. [5 marks]
+
+4. Describe your search results. [1 mark]
+
+Note: The following databases should be searched:
+
+1. PubMed
+
+2. Cochrane Library
+
+3. China National Knowledge Infrastructure—CNKI
+
+4. CINAHL
+
+5. Web of Science Core Collection
+
+For each database, students must record:
+
+•   Database and platform
+
+•   Search date
+
+•   Complete search strategy
+
+•   Limits applied
+
+•   Number of results
+
+•   Number of potentially relevant studies
+
