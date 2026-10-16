@@ -416,6 +416,11 @@ History and Search Details：
 
 检索完成后，记录结果数并保存截图。截图应同时显示“总库”或实际数据库范围、两行主题检索条件、行间的 AND、所用限制条件和结果数量。
 
+中文检索结果：
+![alt text](<image/Assignment One.draft.zh-CN/1792155727287.png>)
+外文检索结果：
+![alt text](<image/Assignment One.draft.zh-CN/1792155947700.png>)
+
 #### 7.3.3 特异性检索：详细操作
 
 点击 **重置条件**，然后建立4行主题检索条件。
@@ -455,6 +460,11 @@ AND 主题=(随机或临床试验相关词)
 
 限制条件：敏感性检索和特异性检索均暂不限制发表年份。不要额外勾选核心期刊、CSSCI、基金文献等来源限制，除非教师明确要求。若使用了数据库范围、语言、时间、来源类型或扩展功能等任何限制，必须如实记录。
 
+中文检索：
+![alt text](<image/Assignment One.draft.zh-CN/1792156266901.png>)
+英文检索：
+![alt text](<image/Assignment One.draft.zh-CN/1792156289143.png>)
+
 敏感性检索结果数：【待填写】
 
 敏感性检索潜在相关研究数：【待填写】
@@ -474,6 +484,9 @@ AND 主题=(随机或临床试验相关词)
 实际检索日期：【待填写】
 
 说明：先进入 CINAHL Headings 核对主题词。不同订阅版本的主题词显示可能略有区别，如果系统中不存在下列 MH 词，应选择界面推荐的最接近主题词，并保存主题词页面截图。
+
+没有该数据库的账号权限：
+![alt text](<image/Assignment One.draft.zh-CN/1792158482493.png>)
 
 建议在 Advanced Search 的 Search History 中分组运行：
 
@@ -521,37 +534,96 @@ S1 AND S3 AND S4 AND S5
 
 实际检索日期：【待填写】
 
-#### 7.5.1 敏感性检索式
+#### 7.5.1 当前截图所示页面及访问要求
+
+没有该数据库的账号权限：
+![alt text](<image/Assignment One.draft.zh-CN/1792158962885.png>)
+
+当前截图属于 Web of Science 平台，但尚不是用于本作业的 Web of Science Core Collection 文献主题检索页面。截图中的检索类型为 **Name Search**，输入框要求填写 **Last Name** 和 **First Name**，用于按研究者姓名查找研究者档案或作者记录；不能把本作业的主题关键词输入这些姓名框中。页面也没有显示数据库名称 **Web of Science Core Collection**、字段 **Topic** 或可输入 `TS=` 检索式的 Advanced Search 查询框。
+
+这通常表示当前仅登录了个人 Web of Science 账户，但尚未通过学校或其他订阅机构取得 Core Collection 的文献检索权限。个人账户可以建立研究者档案，但不能代替机构订阅。必须先从学校图书馆数据库入口进入 Web of Science，或在 Web of Science 中选择 **Institutional Sign In**，通过学校统一身份认证、VPN、CARSI、Shibboleth、OpenAthens 或图书馆校外访问系统完成授权。
+
+获得授权后，页面应至少能够显示以下内容：
+
+- 检索对象为 **Documents** 或 **Document Search**，而不是 Researchers/Name Search；
+- 数据库选择器显示 **Web of Science Core Collection**；
+- 普通检索页面能够选择字段 **Topic**；或者 Advanced Search 页面允许输入以 `TS=` 开头的检索式；
+- 能够选择 Timespan、查看检索结果数和 Search History。
+
+如果仍然只能看到 Name Search、Last Name 和 First Name，不要继续输入本作业的关键词，应联系学校图书馆或任课教师解决数据库访问权限。
+
+#### 7.5.2 进入正确检索页面
+
+1. 从学校图书馆的数据库导航进入 **Web of Science**，或访问 `https://www.webofscience.com/` 后选择 **Institutional Sign In** 并完成学校身份认证。
+2. 登录后点击顶部 **Search**，选择 **Documents** 或 **Document Search**。
+3. 在数据库选择器中选择 **Web of Science Core Collection**。不要选择 Researchers、Researcher Search，也不要把 All Databases 的结果当作 Core Collection 的结果。
+4. 打开 **Advanced Search**。本节优先使用 Advanced Search，因为它可以直接输入完整的 `TS=` 检索式，也便于在 Search History 中保存完整策略。
+5. 将 **Timespan** 设为 **All years** 或系统提供的最完整年份范围；Core Collection 内的引文索引保持机构默认的全部可用索引。
+6. 敏感性检索和特异性检索均不限制语言、国家、开放获取状态和文献类型。除非教师明确要求，不要预先勾选 Article、Open Access 等筛选条件。
+
+`TS` 代表 **Topic**，检索题名、摘要、作者关键词和 Keywords Plus。英文短语使用英文双引号，`OR` 连接同义词，`AND` 连接不同概念，星号 `*` 用于检索词尾变化。
+
+#### 7.5.3 敏感性检索：详细操作
+
+在 **Advanced Search** 的查询框中完整输入以下检索式：
 
 ```text
 TS=("type 2 diabetes" OR "type 2 diabetes mellitus" OR "type II diabetes" OR "type II diabetes mellitus" OR T2DM OR NIDDM)
 AND
-TS=("artificial intelligence" OR chatbot* OR "conversational agent*" OR "conversational AI" OR "virtual health assistant*" OR "virtual assistant*" OR "voice assistant*" OR "embodied conversational agent*" OR "dialogue system*" OR "dialog system*" OR "voice-based AI")
+TS=("artificial intelligence" OR chatbot* OR "conversational agent*" OR "conversational AI" OR "virtual health assistant*" OR "virtual assistant*" OR "voice assistant*" OR "embodied conversational agent*" OR "dialogue system*" OR "dialog system*" OR "voice-based AI" OR ChatGPT OR "large language model*")
 ```
 
-#### 7.5.2 特异性检索式
+检查括号和双引号后点击 **Search**。进入结果页后：
+
+1. 确认页面显示的数据库是 Web of Science Core Collection，而不是 All Databases。
+2. 不要在结果页追加筛选条件；记录页面显示的总结果数。
+3. 打开 **Search History**，确认本次检索被保存为一个检索集合，并保存能够显示完整检索式和结果数的截图。
+4. 阅读题名和摘要，按第 8 节标准记录“潜在相关研究数”。
+
+如果获得授权后的页面只有逐行的 Document Search，没有可输入 `TS=` 的 Advanced Search 查询框，则使用以下等价操作：
+
+1. 第1行字段选择 **Topic**，输入糖尿病词组（只输入 `TS=(...)` 括号内的内容，不要输入 `TS=`）。
+2. 点击 **Add row**；行间关系选择 **AND**。
+3. 第2行字段选择 **Topic**，输入人工智能和对话代理词组（同样只输入第二个 `TS=(...)` 括号内的内容）。
+4. 点击 **Search**，记录结果数并保存 Search History 截图。
+
+#### 7.5.4 特异性检索：详细操作
+
+返回 **Advanced Search**，清除上一条检索式，再完整输入：
 
 ```text
 TS=("type 2 diabetes" OR "type 2 diabetes mellitus" OR "type II diabetes" OR "type II diabetes mellitus" OR T2DM OR NIDDM)
 AND
-TS=(chatbot* OR "conversational agent*" OR "conversational AI" OR "virtual health assistant*" OR "virtual assistant*" OR "voice assistant*" OR "embodied conversational agent*" OR "dialogue system*" OR "dialog system*" OR "voice-based AI")
+TS=(chatbot* OR "conversational agent*" OR "conversational AI" OR "virtual health assistant*" OR "virtual assistant*" OR "voice assistant*" OR "embodied conversational agent*" OR "dialogue system*" OR "dialog system*" OR "voice-based AI" OR ChatGPT OR "large language model*")
 AND
 TS=(self-manag* OR "self care" OR "glycemic control" OR "glycaemic control" OR "blood glucose" OR HbA1c OR A1c)
 AND
 TS=(random* OR trial)
 ```
 
-限制条件：数据库必须选择 Web of Science Core Collection。建议不限制年份和语言；如使用 Document Types = Article 等限制，应记录在作业中。TS 代表 Topic，一般检索题名、摘要、作者关键词和 Keywords Plus。
+点击 **Search** 后，确认数据库范围和限制条件与敏感性检索完全一致，记录结果总数，并在 Search History 中保存包含完整检索式和结果数的截图。随后阅读题名和摘要，填写潜在相关研究数。
 
-敏感性检索结果数：【待填写】
+如果只能使用逐行的 Document Search，则建立4行 **Topic** 条件：第1行为糖尿病词组，第2行为对话型人工智能词组，第3行为自我管理和血糖控制词组，第4行为随机试验词组；各行之间均选择 **AND**。不要把 `TS=` 复制到已经选择 Topic 的普通输入框中。
 
-敏感性检索潜在相关研究数：【待填写】
+#### 7.5.5 记录和截图要求
 
-特异性检索结果数：【待填写】
+敏感性检索与特异性检索必须使用相同的数据库、Timespan、引文索引和其他限制条件。每组检索至少保存：
 
-特异性检索潜在相关研究数：【待填写】
+1. 显示 **Web of Science Core Collection** 数据库名称的页面；
+2. 显示完整检索式及结果数的 Search History 页面；
+3. 如使用了任何年份、文献类型、语言或开放获取筛选，显示这些筛选条件的结果页面。
 
-截图：【待截图。需显示数据库名称、完整检索式、结果数和筛选条件】
+当前 Name Search 页面只能作为“尚未取得 Core Collection 文献检索权限”的记录，不能作为本作业的 Web of Science 检索截图。
+
+敏感性检索结果数：【待取得机构授权并实际检索后填写】
+
+敏感性检索潜在相关研究数：【待取得机构授权并完成题名/摘要初筛后填写】
+
+特异性检索结果数：【待取得机构授权并实际检索后填写】
+
+特异性检索潜在相关研究数：【待取得机构授权并完成题名/摘要初筛后填写】
+
+截图：【待取得机构授权后补充。需显示数据库名称、完整检索式、结果数和筛选条件】
 
 ## 8. 潜在相关研究的初筛方法
 
